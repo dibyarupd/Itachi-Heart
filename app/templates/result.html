@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'styles/style_result.css') }}">
+    <title>Result</title>
+</head>
+<body>
+
+    <a href="/">
+        <img src="{{ url_for('static', filename = 'images/bullseye-arrow_9795295.svg') }}" alt="Home-Icon">
+    </a>
+    <br><br>
+
+    <div>
+        <img src="{{ url_for('static', filename = 'images/10502098.svg') }}" alt="Anime-Girl">
+
+        <span>{{ content }}</span>
+        <br><br>
+        <span>
+            In this personal quest, worry takes no flight,
+            <br>
+            For in failure's shadow, we'll find our light.
+            <br>
+            No judgment's sting in this private night,
+            <br>
+            Our project blooms, in its own right.
+        </span>
+
+        <img src="{{ url_for('static', filename = 'images/10502101.svg') }}" alt="Anime-Girl">
+    </div>
+
+</body>
+</html>
