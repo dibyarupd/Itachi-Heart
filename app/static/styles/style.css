@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    min-height: 100vh;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a:link {
+    text-decoration: none;
+    color: #36454F;
+}
+
+a:visited {
+    color: #36454F;
+}
+
+a:hover {
+    color: hsl(9, 59%, 34%);
+}
+
+a:active {
+    color: hsl(9, 59%, 44%);
+}
+
+body > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body > div > img {
+    max-width: 10%;
+}

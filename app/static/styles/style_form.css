@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    /* min-height: 100vh; */
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: none;
+    color: #36454F;
+}
+
+a:visited {
+    color: #36454F;
+}
+
+a:hover {
+    color: hsl(9, 59%, 34%);
+}
+
+a:active {
+    color: hsl(9, 59%, 44%);
+}
+
+body > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body > a {
+    min-width: 100%;
+
+    padding: 0.5rem;
+}
+
+body > a > img {
+    max-width: 1.5rem;
+}
+
+body > a:link {
+    opacity: 0.5;
+}
+
+body > a:hover {
+    opacity: 0.7;
+    background-image: linear-gradient(to right, rgba(169, 169, 169, 0), rgba(169, 169, 169, 0.7), 
+    rgba(169, 169, 169, 0));
+}
+
+body > a:active {
+    opacity: 0.8;
+    background-image: linear-gradient(to right, rgba(169, 169, 169, 0), rgba(169, 169, 169, 0.8), 
+    rgba(169, 169, 169, 0));
+}
+
+body > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body> div > img {
+    max-width: 12%;
+}
+
+body > div > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div > form > label {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    min-width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+body > div > form > label > input {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    border: 1px dotted #36454F;
+    outline: none;
+    padding: 1px 2px;
+}
+
+/* body > div > form > label > input:focus {
+    border: 1px dotted #8a3324;
+} */
+
+body > div > form > label > select {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    border: 1px dotted #36454F;
+    outline: none;
+}
+
+/* body > div > form > label > select:focus {
+    border: 1px dotted #8a3324;
+} */
+
+body > div > form > input[type = submit] {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    border: 1px dotted #36454F;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 4px;
+
+    opacity: 0.8;
+}
+
+body > div > form > input[type = submit]:focus {
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    color: #36454F;
+
+    outline: none;
+    border: 1px solid hsl(9, 59%, 34%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 4px;
+
+    opacity: 0.8;
+}
+
+/* body > div > form > input[type = submit]:hover {
+    color: hsl(9, 59%, 34%);
+}
+
+body > div > form > input[type = submit]:active {
+    color: hsl(9, 59%, 44%);
+} */
+
